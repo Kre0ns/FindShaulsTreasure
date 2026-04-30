@@ -9,7 +9,7 @@ public partial class QuestHolder : ContentPage
 	{
 		InitializeComponent();
 
-		var firstQuest = new Quests.Group_00.Quest_00(currentTeamId);
+		var firstQuest = new Quests.Group_06.Quest_06(currentTeamId);
 
 		cvCurrentQuest.Content = firstQuest;
 

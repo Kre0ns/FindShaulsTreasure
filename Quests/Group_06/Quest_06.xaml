@@ -4,19 +4,22 @@
              xmlns:quests="clr-namespace:FindShaulsTreasure.Quests"
              x:Class="FindShaulsTreasure.Quests.Group_06.Quest_06">
     <VerticalStackLayout>
-        <Grid RowDefinitions="*,*,*,*,*,*,*,*,*" ColumnDefinitions="*,*,*,*,*,*,*,*,*" >
+        <Grid RowDefinitions="*,*,*,*,*,*,*,*,*" ColumnDefinitions="*,*,*,*,*,*,*,*,*" RowSpacing="5">
+            <Button Grid.Column="0" Grid.Row="7" BackgroundColor="Black" />
+            <Button Grid.Column="1" Grid.Row="7" BackgroundColor="Brown" />
+            <Button Grid.Column="2" Grid.Row="7" BackgroundColor="Gold" />
+            <Button Grid.Column="3" Grid.Row="7" BackgroundColor="Green" />
+            <Button Grid.Column="4" Grid.Row="7" BackgroundColor="Red" />
+            <Button Grid.Column="5" Grid.Row="7" BackgroundColor="Blue" />
+            <Button Grid.Column="6" Grid.Row="7" BackgroundColor="Pink" />
 
-
-
-
-            <Button Text="balls"  Grid.Column="0" Grid.Row="8"  BackgroundColor="Black" />
-            <Button Text="" Grid.Column="1" Grid.Row="8" BackgroundColor="Brown" />
+            <Button Grid.Column="0" Grid.Row="8" BackgroundColor="Black" />
+            <Button Grid.Column="1" Grid.Row="8" BackgroundColor="Brown" />
             <Button Grid.Column="2" Grid.Row="8" BackgroundColor="Gold" />
             <Button Grid.Column="3" Grid.Row="8" BackgroundColor="Green" />
             <Button Grid.Column="4" Grid.Row="8" BackgroundColor="Red" />
             <Button Grid.Column="5" Grid.Row="8" BackgroundColor="Blue" />
-            <Button Grid.Column="6" Grid.Row="8" BackgroundColor="Gray" />
-            <Button Grid.Column="7" Grid.Row="8" BackgroundColor="Pink" />
+            <Button Grid.Column="6" Grid.Row="8" BackgroundColor="Pink" />
         </Grid>
     </VerticalStackLayout>
 </quests:BaseQuestView>

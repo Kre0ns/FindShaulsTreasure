@@ -77,6 +77,9 @@
 	  <MauiXaml Update="Quests\Group_00\Quest_00.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Quests\Group_06\Quest_06.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
